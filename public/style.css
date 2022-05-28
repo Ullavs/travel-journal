@@ -1,5 +1,65 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --small-font-weight: 400;
+  --regular-font-weight: 500;
+  --bold-font-weight: 700;
+  --header-background-color: #f55a5a;
+  --header-text-color: #ffffff;
+  --main-text-color: #2b283a;
+  --link-text-color: #918e9b;
+  --background-color: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
 body {
-  background-color: red;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 100%;
+  font-family: var(--font-family);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.header {
+  background-color: var(--header-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4375rem;
+  padding: 1.25rem 1rem;
+}
+
+h1 {
+  font-size: 0.90375rem;
+  font-weight: var(--regular-font-weight);
+  line-height: 1.09375rem;
+  color: var(--header-text-color);
+}
+
+.travel-cards {
+  margin: 2.8125rem auto;
+  max-width: 550px;
+  padding-inline: 1rem;
 }
