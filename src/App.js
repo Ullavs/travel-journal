@@ -9,9 +9,9 @@ export default function App() {
   });
 
   return (
-    <div className="container">
+    <>
       <Header />
-      <section className="travel-cards">{travelCards}</section>
-    </div>
+      <main className="travel-cards">{travelCards}</main>
+    </>
   );
 }
