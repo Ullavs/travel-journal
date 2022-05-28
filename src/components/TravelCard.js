@@ -13,7 +13,7 @@ export default function TravelCard(props) {
       </div>
       <div className="travel-card-details">
         <img
-          src="../images/location-icon.png"
+          src="../images/location-icon.svg"
           alt=""
           height="10"
           width="7"

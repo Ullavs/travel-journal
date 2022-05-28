@@ -66,16 +66,28 @@ h1 {
 }
 
 .travel-cards {
-  margin: 1.5625rem auto;
+  margin: 0.5625rem auto;
   max-width: 550px;
-  padding-inline: 1rem;
+  padding-inline: 0.75rem;
+}
+
+@media (min-width: 48rem) {
+  .travel-cards {
+    margin: 1.5625rem auto;
+  }
 }
 
 .travel-card {
   display: flex;
-  gap: 1.1875rem;
+  gap: 0.75rem;
   padding-block: 1.25rem;
-  align-items: center;
+}
+
+@media (min-width: 48rem) {
+  .travel-card {
+    gap: 1.1875rem;
+    align-items: center;
+  }
 }
 
 .travel-card + .travel-card {
@@ -84,7 +96,17 @@ h1 {
 
 .travel-card-image {
   flex: 1 0 auto;
-  border-radius: 0.3125rem;
+  width: 5rem;
+}
+
+@media (min-width: 48rem) {
+  .travel-card-image {
+    width: auto;
+  }
+}
+
+.travel-card-image img {
+  height: auto;
 }
 
 .travel-card-details {
