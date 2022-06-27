@@ -12,8 +12,8 @@ Solo projects are meant to challenge the skills you've learnt so far through the
 
 ## Built with
 
-- React
-- CSS custom properties 
+- [React](https://reactjs.org/) - JS library
+- CSS custom properties
 - CSS Grid, CSS Flexbox
 - Mobile-first workflow
 - Figma design files from Scrimba
@@ -22,4 +22,3 @@ Solo projects are meant to challenge the skills you've learnt so far through the
 ## Live URL
 
 - Check this project [online](https://travel-journal.ullavs.nl)
-
